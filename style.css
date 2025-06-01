@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    font-family: Roboto;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#boxes {
+    border: 1px solid rgb(78, 77, 77);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 30px;
+}
+
+#boxes:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+    box-shadow: 2px 2px 20px rgb(88, 88, 88);
+}
+
+.btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(167, 165, 165);
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: rgb(228, 223, 223);
+}
+
+.btn:active {
+    box-shadow: inset 2px 2px 5px black;
+}
+
+#quantity {
+    height: 200px;
+    width: 300px;
+    border: 2px solid white;
+}
